@@ -1,0 +1,16 @@
+# Build outputs
+Debug*/
+Release*/
+build/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.VC.db
+*.user
+*.ipch
+*.sdf
+*.opensdf
+
+# OS
+.DS_Store

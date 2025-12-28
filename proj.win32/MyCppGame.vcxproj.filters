@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\managers">
+      <UniqueIdentifier>{7821acde-679f-41f6-a500-5afdfebece07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\views">
+      <UniqueIdentifier>{943240d4-f4cb-4ae5-9017-a913f0de3a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{55e0ef53-b3aa-4a18-8082-9ad6b2e5a709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\controllers">
+      <UniqueIdentifier>{dbbcbccc-5b17-4421-bd18-e0747e2e7b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scenes">
+      <UniqueIdentifier>{522ae465-5b43-473f-81c0-0900cda60941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\services">
+      <UniqueIdentifier>{1cfbaaaf-8635-4094-8990-620e5d7d5b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\fonts">
+      <UniqueIdentifier>{c16dbb40-f3ea-4e30-af1c-352f627b7ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\models">
+      <UniqueIdentifier>{41b2d004-674a-4116-af87-7ba51f854ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\suits">
+      <UniqueIdentifier>{c092d5a8-f8e6-48c3-b912-6023124ea2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\fonts\numbers">
+      <UniqueIdentifier>{2bcf6a86-4399-406c-a294-6133001536f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\StartScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\LevelSelectScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\GameScene.cpp">
+      <Filter>src\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\views\CardView.cpp">
+      <Filter>src\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\controllers\GameController.cpp">
+      <Filter>src\controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\StartScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\LevelSelectScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\GameScene.h">
+      <Filter>src\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\GameModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\CardModel.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\views\CardView.h">
+      <Filter>src\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\controllers\GameController.h">
+      <Filter>src\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\models\UndoRecord.h">
+      <Filter>src\models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\BalooTammudu-Regular.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\card_general.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\suits\spade.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\suits\club.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\suits\diamond.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\suits\heart.png">
+      <Filter>resource\suits</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_4.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_5.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_6.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_7.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_8.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_9.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_10.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_A.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_J.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_K.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_Q.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_2.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_3.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_4.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_5.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_6.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_7.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_8.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_9.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_10.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_A.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_J.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_K.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_red_Q.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_2.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_3.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_4.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_5.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_6.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_7.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_8.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_9.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_10.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_A.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_J.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_K.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_black_Q.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_2.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_3.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_4.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_5.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_6.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_7.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_8.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_9.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_10.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_A.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_J.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_K.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\small_red_Q.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_2.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+    <Image Include="..\Resources\number\big_black_3.png">
+      <Filter>resource\fonts\numbers</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\.DS_Store">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\.gitkeep">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\number\.DS_Store">
+      <Filter>resource\fonts\numbers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
